@@ -1,0 +1,1451 @@
+{
+    "default_tile_format": "TIFF",
+    "default_tile_shape": [
+        456,
+        456
+    ],
+    "dimensions": [
+        "h",
+        "c",
+        "y",
+        "z",
+        "x"
+    ],
+    "extras": {},
+    "shape": {
+        "c": 1,
+        "h": 1,
+        "z": 51
+    },
+    "tiles": [
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z0-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 0
+            },
+            "sha256": "50d176e063b8ca3150193c18f3e74bd0ca2ea2559320927e1629f1e2fa7ed6f4",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z1-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 1
+            },
+            "sha256": "c4e1387b07c88a910704a5ced515cb0ed0ebaa592b557e07f0241b4a90edf192",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z2-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 2
+            },
+            "sha256": "7f2bf46a4ba6f251cfb7bc00d583e7b098810d4c609d1a48f7aa824e8766be37",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z3-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 3
+            },
+            "sha256": "d8045693aac5fb27d726023e6f68445926bb92f8e5eae6248eea26de2cf2f0c1",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z4-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 4
+            },
+            "sha256": "399924cf1abffbd9a03110f187cd36dd8d4dea7f7963254328374141c1ca5edd",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z5-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 5
+            },
+            "sha256": "f61fc64054fdd098dcbcb2fcd1979a88e653f06ea9ee6282606f341ce010d5da",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z6-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 6
+            },
+            "sha256": "d21a516e115a6af62a6d41d62fe8368efd53765a26392978f41d053693d0765e",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z7-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 7
+            },
+            "sha256": "fc59256a152f585d93a502883124dea40c4010409176f6965f100ad3073f2f3b",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z8-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 8
+            },
+            "sha256": "21119cf2bdccd5d6984e964f57be4cad9c1dff10ec6f79e4cef0474c0e9e95bc",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z9-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 9
+            },
+            "sha256": "dd140973540ae508f23690e5eda43bf78b23d117c78e8fb4ec76b66b7621af6c",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z10-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 10
+            },
+            "sha256": "38be80a8abfec77cdf149af3f890d116cd41d1f6abcf257ac3bb962cd6540c94",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z11-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 11
+            },
+            "sha256": "61defecdfb3ea27912cc90876364dc3a6308925e00197ede9b1ebdce1ba90d79",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z12-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 12
+            },
+            "sha256": "0788a7f3506b02e2a27bf78c7da4cb96d1caeda898976ba300a98c40a47ed2f9",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z13-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 13
+            },
+            "sha256": "5a9fe41d30a8dd46b5d8e19125612c34bf4c391dc50449a28ed4dccba514a100",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z14-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 14
+            },
+            "sha256": "6d306eeec461ba996d1d12dec5848db0b20df1f859a91e4919c75ec51b89e5cd",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z15-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 15
+            },
+            "sha256": "79908cc5f49a8ec253a517dcee88b546a06acbe290aa6a3d9bdaa168714f72ad",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z16-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 16
+            },
+            "sha256": "e9aea4333b3937372b74582b04c01337344a1e871204c35aaf62679890ea85fc",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z17-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 17
+            },
+            "sha256": "fb48d7df1afbd8b05355d5034b9e871108647268f1886935ac80e33eda98dd9e",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z18-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 18
+            },
+            "sha256": "d414d453b9f814fc66d3454950b273e381a8b4d2fb945d936582135bf0f79158",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z19-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 19
+            },
+            "sha256": "9951d64278a92705651da678794402b75b12415a96fa3820959ee52d11296cc2",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z20-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 20
+            },
+            "sha256": "285eda3bfdb43ca015d82c2ab4b15180bcdff6be34a4b54c5682aa61b8ca3eea",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z21-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 21
+            },
+            "sha256": "f291b98d2cc4a78388a5c7b12e31acd4c7407d0c8afc7f470af54d0008cbc854",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z22-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 22
+            },
+            "sha256": "73e9ac2dbcfd8b7efa7658ceef196f0f9d925e5ad347899728f675f88822f7e4",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z23-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 23
+            },
+            "sha256": "b5577b98e12e0cb5d829d39959f348936299e6ef6985282a64ef38ba61ec05a5",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z24-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 24
+            },
+            "sha256": "58ad6e91e8f6af00286dfc956d70fa82c0022e3555cb135faca26851ad6adc23",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z25-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 25
+            },
+            "sha256": "26bb7123ca78f1dc5995b309d21b071579aa285cb88e4ab87fdc66f290263e80",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z26-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 26
+            },
+            "sha256": "665fab34ecb264d635b109f94d08408b557252243b7b814159613b5868285dc2",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z27-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 27
+            },
+            "sha256": "6527d45f0040aaf2c302b8efcdafba8822fa00dbcb4b5356509a2fccd1cf3029",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z28-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 28
+            },
+            "sha256": "2419811f59b4a665139c212081a6963015827db331667a59ad7e6fdd3ce0283a",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z29-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 29
+            },
+            "sha256": "4ed30bc56f72a626313b75a7360aadcba69ab764ccdeb115440654c80b98299a",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z30-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 30
+            },
+            "sha256": "0c43a46bb0b9565816d6d64bf21ac07dae9ef4e71249b5e04c5baa35029c3d0c",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z31-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 31
+            },
+            "sha256": "403d922cce57f47a6ea8921cb9176a5f2b031cb06341820bd042509dd8118ade",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z32-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 32
+            },
+            "sha256": "74c8270bf6fa63527224ec028e93a61d86717e2c45fe3fb0bc95e1f39c091d41",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z33-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 33
+            },
+            "sha256": "6c3a9876c0a4360de9166fe518a8e0db475232879797d992b543478aba6b8fcf",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z34-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 34
+            },
+            "sha256": "334941ce1cd19180aeeb4463d940cd65a16814623464e47971c1f86dbc307c1b",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z35-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 35
+            },
+            "sha256": "1cbaa5b15f789e54bf7f277d033ac1bf3c7b6047c824f6204db02381a2f128a2",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z36-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 36
+            },
+            "sha256": "a8fa10354ddc21e46a67037e432bdb8266818602e14de9ce3b1653be747b51ad",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z37-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 37
+            },
+            "sha256": "08eb72d48cf1e404123bb84bd4d4af072860da650a10317d84733fc93e9202ae",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z38-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 38
+            },
+            "sha256": "19f400f44eddeceb6332f9ad29a2b24a610c28e150a09216828f17859deb6766",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z39-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 39
+            },
+            "sha256": "8f9d1597d3224bf423b7e6191e0e8754c3e4cd65903dfebb97cefbe3ec49f5d7",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z40-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 40
+            },
+            "sha256": "d7179289316ce88b65cd4747c21cc98ed462e8de8b1bc30cc0db0c94e5664fe5",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z41-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 41
+            },
+            "sha256": "e5a7d528ca009b407781d412182bd2bdf701c616e1bccb4e5f5d63576263477f",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z42-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 42
+            },
+            "sha256": "d4cb0473191ecf2966bb66d1728384d04256124c44b782f846aa9f26c7a7747b",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z43-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 43
+            },
+            "sha256": "d5be7f415f57fbbd18592207401c2dbeb41ce6a5b7f413311d7c9645f03baf13",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z44-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 44
+            },
+            "sha256": "494d89757ceae952b545aacc397f92fdd9efe2e68610fe74a7ebfbc64ec4a73b",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z45-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 45
+            },
+            "sha256": "34662279458f12ac26a86e64ce931cc24653065a7403f9ebc45eec385c74b420",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z46-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 46
+            },
+            "sha256": "0f2636e9e74c40924f7b3e764e263dbf82bf708c50408bfe4877fe929f4d6043",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z47-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 47
+            },
+            "sha256": "2ca926bb1962ed715eef973d4e00f3e88a35ff948369def5257b0330b3c33ef7",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z48-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 48
+            },
+            "sha256": "7a2e9e4cba3b16733325484c09d768e833f1f75449a49bb94be98ae4485f1b55",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z49-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 49
+            },
+            "sha256": "555e0b166f9e63bcb9ea1df49ea7bb5cfc8db5b2e43471fa76e87f298e8a6529",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        },
+        {
+            "coordinates": {
+                "x": [
+                    0.0,
+                    0.0001
+                ],
+                "y": [
+                    0.0,
+                    0.0001
+                ],
+                "z": [
+                    0.0,
+                    0.0001
+                ]
+            },
+            "file": "hybridization-fov_000-Z50-H0-C0.tiff",
+            "indices": {
+                "c": 0,
+                "h": 0,
+                "z": 50
+            },
+            "sha256": "34adbaa1af85eac92146330954142dc7f20bbafd1248b5e0af8c0cb204e8b729",
+            "tile_format": "TIFF",
+            "tile_shape": [
+                456,
+                456
+            ]
+        }
+    ],
+    "version": "0.0.0"
+}

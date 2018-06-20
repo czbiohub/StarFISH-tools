@@ -1,0 +1,9 @@
+{
+    "version": "0.0.0",
+    "auxiliary_images": {
+        
+    },
+    "extras": {},
+    "hybridization_images": "hybridization-fov_000.json",
+    "codebook": "codebook.json"
+}

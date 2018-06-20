@@ -1,0 +1,10 @@
+[
+    {
+        "barcode": "AAGC",
+        "gene": "ACTB_human"
+    },
+    {
+        "barcode": "AGGC",
+        "gene": "ACTB_mouse"
+    }
+]
