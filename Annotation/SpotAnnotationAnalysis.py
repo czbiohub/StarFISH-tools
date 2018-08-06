@@ -1365,10 +1365,10 @@ class SpotAnnotationAnalysis():
 		plt.title(density + " Region: "+ str(len(clusters.index))+ " Clusters")
 		plt.show()
 
-		avg_str = "Average number of unique workers in a cluster = " + str(math.floor(np.mean(num_members_list)))
-		print(avg_str)
-		std_str = "Standard deviation = " + str(math.floor(np.std(num_members_list)))
-		print(std_str)
+		# avg_str = "Average number of unique workers in a cluster = " + str(math.floor(np.mean(num_members_list)))
+		# print(avg_str)
+		# std_str = "Standard deviation = " + str(math.floor(np.std(num_members_list)))
+		# print(std_str)
 
 		img = mpimg.imread(img_name)
 		fig = plt.figure(figsize = (6,6))
@@ -1485,10 +1485,10 @@ class SpotAnnotationAnalysis():
 				    y_coords_flipped = self.ba.flip(y_coords, img_height)
 				    handle = plt.scatter(x_coords, y_coords_flipped, s = worker_marker_size, facecolors = color, alpha = 0.5, label = worker)
 				    handle_list.append(handle)
-				plt.legend(handles = handle_list, loc = 9, bbox_to_anchor = (1.2, 1.015))
+				# plt.legend(handles = handle_list, loc = 9, bbox_to_anchor = (1.2, 1.015))
 
-			if not show_clusters:
-				plt.title('Worker Annotations')
+			# if not show_clusters:
+			# 	plt.title('Worker Annotations')
 
 		if show_clusters:
 
@@ -1514,11 +1514,11 @@ class SpotAnnotationAnalysis():
 			else:
 				plt.scatter(x_coords, y_coords_flipped, s = cluster_marker_size, facecolors = 'none', edgecolors = '#ffffff')
 
-			if not show_workers:
-				plt.title('Cluster Centroids')
+		# 	if not show_workers:
+		# 		plt.title('Cluster Centroids')
 
-		if show_workers and show_clusters:
-			plt.title('Worker Annotations and Cluster Centroids')
+		# if show_workers and show_clusters:
+		# 	plt.title('Worker Annotations and Cluster Centroids')
 
 		if show_ref_points:
 			ref_df = pd.read_csv(csv_filepath)							# plot reference points			
