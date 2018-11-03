@@ -44,6 +44,11 @@ class ImageDatabase:
 		return acq_meta
 
 	def getImageMeta(self, dataset_identifier):
+		'''
+			Return metadata for each frame in a list.
+
+		'''
+
 		importlib.reload(db_session)
 
 		with db_session.session_scope(self.credentials_filename) as session:
@@ -63,7 +68,13 @@ class ImageDatabase:
 
 		return image_metadata
 
-	def getFrames(self, dataset_identifier, channels='all', Frames='all'):
+	def getFrames(self, dataset_identifier, channels='all', slices='all'):
+		''' 
+			Get particular slices from an imaging dataset.
+
+			Todo: add slicing for pos and time.
+		'''
+
 		# Open the session
 		importlib.reload(db_session)
 		
@@ -87,10 +98,10 @@ class ImageDatabase:
 				print('Invalid channel query')
 
 			# Filter by slice
-			if Frames == 'all':
+			if slices == 'all':
 				pass
 
-			elif type(channels) is tuple:
+			elif type(slices) is tuple:
 				slice_filtered = all_frames.filter(Frames.slice_idx.in_(Frames))
 
 			else:
@@ -114,18 +125,25 @@ class ImageDatabase:
 			)
 
 			# Get the folder
-			folder_name = all_frames[0].frames_global.folder_name
+			s3_dir = all_frames[0].frames_global.s3_dir
 
 			# Download the files
-			data_loader = s3_storage.DataStorage(folder_name=folder_name)
-			im_stack = data_loader.fetch_im_stack(file_names, stack_shape, bit_depth)
+			data_loader = s3_storage.DataStorage(s3_dir=s3_dir)
+			im_stack = data_loader.get_stack(file_names, stack_shape, bit_depth)
 			
 		session.rollback()
 		session.close()
 
 		return im_stack
 
-	def getStack(self, dataset_identifier, channel, verbose=False):
+	def getStack(self, dataset_identifier, channel, time_idx=0, pos_idx=0, verbose=False):
+		''' Download a stack at a given set of pos, time, channel indices
+
+			Returns
+			im_ordered : np.ndarray containing the image [time, chan, z, x, y]
+
+		'''
+
 		# Open the session
 		importlib.reload(db_session)
 		
@@ -138,6 +156,8 @@ class ImageDatabase:
 				.join(DataSet) \
 				.filter(DataSet.dataset_serial == dataset_identifier) \
 				.filter(Frames.channel_name == channel) \
+				.filter(Frames.time_idx == time_idx) \
+				.filter(Frames.pos_idx == pos_idx) \
 				.all()
 
 			# Get the names of the files
@@ -159,14 +179,15 @@ class ImageDatabase:
 			)
 
 			# Get the folder
-			folder_name = all_frames[0].frames_global.folder_name
+			s3_dir = all_frames[0].frames_global.s3_dir
 
 			# Download the files
-			data_loader = s3_storage.DataStorage(folder_name=folder_name)
-			im_stack = data_loader.fetch_im_stack(file_names, stack_shape, bit_depth, verbose=verbose)
+			data_loader = s3_storage.DataStorage(s3_dir=s3_dir)
+			im_stack = data_loader.get_stack(file_names, stack_shape, bit_depth, verbose=verbose)
 
-			im_ordered = np.zeros((1, 1, stack_shape[3], stack_shape[0], stack_shape[1]))
+			im_ordered = np.zeros((1, 1, stack_shape[3], stack_shape[0], stack_shape[1]), dtype='uint16')
 
+			# Todo update get_stack so this isn't required...
 			for im_idx in range(len(all_frames)):
 				im_ordered[0, 0, im_idx, :, :] = im_stack[:, :, 0, im_idx]
 			
